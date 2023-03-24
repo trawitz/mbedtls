@@ -63,7 +63,7 @@
 #include "mbedtls/private_access.h"
 
 #ifdef __cplusplus
-extern "C" {
+//extern "C" {
 #endif
 
 /* Include the Mbed TLS configuration file, the way Mbed TLS does it
@@ -507,7 +507,7 @@ static inline size_t psa_get_key_bits(
 }
 
 #ifdef __cplusplus
-}
+//}
 #endif
 
 #endif /* PSA_CRYPTO_STRUCT_H */

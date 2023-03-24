@@ -40,7 +40,7 @@
 #endif /* __DOXYGEN_ONLY__ */
 
 #ifdef __cplusplus
-extern "C" {
+//extern "C" {
 #endif
 
 /* The file "crypto_types.h" declares types that encode errors,
@@ -4046,7 +4046,7 @@ psa_status_t psa_generate_key(const psa_key_attributes_t *attributes,
 /**@}*/
 
 #ifdef __cplusplus
-}
+//}
 #endif
 
 /* The file "crypto_sizes.h" contains definitions for size calculation

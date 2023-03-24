@@ -35,7 +35,7 @@
 #include "crypto_compat.h"
 
 #ifdef __cplusplus
-extern "C" {
+//extern "C" {
 #endif
 
 /* UID for secure storage seed */
@@ -1950,7 +1950,7 @@ static inline struct psa_pake_operation_s psa_pake_operation_init( void )
 }
 
 #ifdef __cplusplus
-}
+//}
 #endif
 
 #endif /* PSA_CRYPTO_EXTRA_H */
